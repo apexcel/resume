@@ -91,6 +91,13 @@ class App {
         })
 
         // 스터티, 대외 활동 등등 활동 관련
+        const awards = new ActivityTemplate({
+            title: 'Awards',
+            activities: [
+                {name: '학부 소프트웨어 공모전 장려상', period: '2020.12'}
+            ]
+        })
+
         const activitiesTemplate = new ActivityTemplate({
             title: 'Study',
             activities: [
@@ -101,7 +108,10 @@ class App {
 
         new Wrapper(main, {
             templateTitle: 'Activities',
-            children: activitiesTemplate.template
+            children: [
+                awards.template,
+                activitiesTemplate.template
+            ]
         })
     }
 }
