@@ -23,17 +23,13 @@ class App {
             position: `Web`,
             period: `2020.06 ~ 2020.11`,
             descriptions: [
-                `학원 이용자의 대부분이 직장을 다니기 때문에 직접 방문하여 작성하는 경우는 레슨이 있거나 연습하러 올 때만 가능`,
-                `대부분은 원하는 시간에 제때에 예약을 할 수 없었고 단지 예약만을 위해 밤 늦게 퇴근하고 예약만 하고 가는 사람도 있었기에
-                불편함을 해소하고자 개발
+                `React, Recoil, Webpack, Express, Nginx, Socket.io, MongoDB를 이용하여 개발
                 `,
-                `React, Recoil, Webpack, Express, Nginx, Socket.io 등을 이용하여 개발, 배포 및 운영
+                `
+                AWS EC2, AWS Route53을 이용하여 운영 및 배포
                 `,
                 `카카오 API 연동
                 `,
-                `
-                목표했던 기능들을 제대로 다 구현하지 못하고 운영 3주만에 개발 종료.
-                `
             ],
             repoUrl: `https://github.com/apexcel/reservation-app`
         });
