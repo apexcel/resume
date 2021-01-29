@@ -29,7 +29,7 @@ class App {
                 `,
                 `React, Recoil, Webpack, Express, Nginx, Socket.io 등을 이용하여 개발, 배포 및 운영
                 `,
-                `카카오 API를 연동한 예약 알림 메시지
+                `카카오 API 연동
                 `,
                 `
                 목표했던 기능들을 제대로 다 구현하지 못하고 운영 3주만에 개발 종료.
