@@ -80,6 +80,7 @@ body {
     font-size: 2rem;
 }
 .introduce-skills span {
+    display: inline-block;
     padding: 2px 4px;
 }
 
@@ -139,4 +140,18 @@ body {
 }
 .activity-period {
     color: #929292;
+}
+
+@media screen and (max-width: 480px) {
+    #App {
+        width: 100%;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #App {
+        width: 100%;
+        margin: 0 15px;
+    }
 }
