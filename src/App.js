@@ -31,7 +31,7 @@ class App {
                 `카카오 API 연동
                 `,
             ],
-            repoUrl: `https://github.com/apexcel/reservation-app`
+            repoUrl: `https://github.com/apexcel/dilettante`
         });
 
         const tetris = new ProjectTemplate({
