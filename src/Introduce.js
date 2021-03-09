@@ -15,7 +15,7 @@ class Introduce {
             email = 'dev.apexcel@gmail.com',
             github = 'https://github.com/apexcel',
             img = '',
-            blog = '',
+            blog = 'https://www.apexcel.blog',
             strongSkills = [
                 'Javascript'
             ].reduce((acc, skill) => acc += `<span ${cn('strong-skills')}>${skill}</span>`, ''),
@@ -35,11 +35,11 @@ class Introduce {
                 <div ${cn('top')}>
                     <h1 ${cn('name')}>${name}</h1>
                     <h2 ${cn('position')}>${position}</h2>
-                    <div>
-                        <a href="mailto:${email}">${email}</p>
-                        <a href=${github}>${github}</a>
-                        <!-- <p>${blog}</p> -->
-                    </div>
+                    <ul>
+                        <li><a href="mailto:${email}">${email}</p></li>
+                        <li><a href=${github}>${github}</a></li>
+                        <li><a href=${blog}>Blog</a></li>
+                    </ul>
                 </div>
             </div>
                 ${introduce}

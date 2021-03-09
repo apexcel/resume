@@ -34,6 +34,23 @@ class App {
             repoUrl: `https://github.com/apexcel/dilettante`
         });
 
+        const kinder = new ProjectTemplate({
+            title: `Kinder Review`,
+            summary: `유치원 리뷰 사이트`,
+            position: `Web`,
+            period: `2020.06 ~ 2020.12`,
+            descriptions: [
+                `React, Webpack, Express, MongoDB를 이용하여 개발
+                `,
+                `
+                공공 API로 유치원 관련 정보를 알려주며 해당 유치원에 관해 리뷰를 작성 할 수 있는 기능.
+                `,
+                `악성 댓글을 파악하는 BERT를 이용한 학습 모델 사용.
+                `,
+            ],
+            repoUrl: `https://github.com/apexcel/kinder-review`
+        });
+
         const tetris = new ProjectTemplate({
             title: `ES6 Tetris`,
             summary: `ES6 Javascript, HTML 그리고 CSS만으로 만든 테트리스`,
@@ -59,8 +76,9 @@ class App {
         new Wrapper(main, {
             templateTitle: 'Side Project',
             children: [
-                tetris.template,
                 dilettante.template,
+                kinder.template,
+                tetris.template,
                 word.template,
             ]
         })
